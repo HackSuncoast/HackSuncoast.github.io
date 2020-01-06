@@ -1,0 +1,1 @@
+"use strict";$(function(){$(window).scroll(function(){800<$(this).scrollTop()?$(".back-to-top").stop().fadeIn(150):$(".back-to-top").stop().fadeOut(150)}),$(".navbar-burger").on("click",function(){$(this).toggleClass("is-active"),$(".".concat($(this).data("target"))).toggleClass("is-active")})});
