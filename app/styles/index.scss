@@ -1,0 +1,56 @@
+@import './variables';
+
+.site-header {
+  .navbar-brand {
+    align-items: center;
+
+    .navbar-burger {
+      height: 4rem;
+      width: 4rem;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
+
+.main-hero {
+  background: url('../images/hero-background.jpg') no-repeat top center fixed;
+  background-size: cover;
+
+  .container {
+    background: rgba($green, 0.7);
+    padding: 2rem;
+    color: $white;
+
+    .title,
+    .subtitle {
+      color: $white;
+      word-break: normal;
+    }
+  }
+}
+
+.sponsors {
+  img {
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 2;
+  background: $green;
+  color: $white;
+  padding: 1rem;
+
+  &:hover {
+    color: $white;
+  }
+}

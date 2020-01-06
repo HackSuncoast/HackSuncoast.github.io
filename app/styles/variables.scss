@@ -1,0 +1,31 @@
+@import '../../node_modules/bulma/sass/utilities/initial-variables';
+
+// Body Bulma Overrides
+
+$body-family: 'Kulim Park', sans-serif;
+$body-size: 18px;
+
+// Color Bulma Overrides
+
+$yellow: #f9ff00;
+$green: #03c100;
+$grey: #d8d8d8;
+$grey-light: #f4f4f4;
+$black: #212121;
+$text: $black;
+$text-strong: $black;
+
+// Navbar Bulma Overrides
+
+$navbar-background-color: $green;
+$navbar-height: 2rem;
+$navbar-item-color: $white;
+$navbar-item-hover-background-color: desaturate($green, 30%);
+$navbar-item-hover-color: $white;
+$navbar-item-img-max-height: 3rem;
+
+// Footer Bulma Overrides
+
+$footer-background-color: $green;
+$footer-color: $white;
+$footer-padding: 2rem;
