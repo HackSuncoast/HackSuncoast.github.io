@@ -13,6 +13,6 @@ $(function() {
 
   $('.navbar-burger').on('click', function() {
     $(this).toggleClass('is-active');
-    $(`.${$(this).data('target')}`).toggleClass('is-active');
+    $('.' + $(this).data('target')).toggleClass('is-active');
   });
 });
