@@ -33,10 +33,18 @@
 }
 
 .sponsors {
-  img {
-    max-width: 400px;
-    margin: 0 auto;
-    display: block;
+  .sponsors-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4rem;
+    width: 100%;
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+    }
   }
 }
 
@@ -52,5 +60,17 @@
 
   &:hover {
     color: $white;
+  }
+}
+
+.btn {
+  display: inline-block;
+  background: $green;
+  color: $white;
+  padding: 1rem;
+
+  &:hover {
+    color: $white;
+    background: desaturate($green, 30%);
   }
 }
